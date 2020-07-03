@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    border: 2px dotted black;
+    font-size: 30px;
+    
+  
+    
+}
+p{
+    margin-top:30px;
+    margin-left: 20px;
+    
+}
+.navbar{
+    margin: 10px;
+    padding: 10px;
+    background-color: crimson;
+  
+   
+}
+.navbar ul li{
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    
+   
+    
+}
